@@ -13,4 +13,11 @@ class SimpleTest {
         int resultado = 2 + 2;
         assertEquals(4, resultado);
     }
+    
+    @Test
+    void testeSubimples() {
+        // Um teste bobo só para o JUnit rodar e o JaCoCo ver
+        int resultado = 2 - 2;
+        assertEquals(0, resultado);
+    }
 }
