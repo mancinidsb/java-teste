@@ -27,4 +27,14 @@ class SimpleTest {
     	Animal gato = new Animal("Gatito", 15.6);//Nome: "+nome+"\nPeso: "+peso
     	assertEquals("Nome: "+gato.nome+"\n"+"Peso: "+gato.peso, gato.toString());
     }
+    
+    @Test
+    void testeGettersSetters() {
+    	Animal animal = new Animal("Dog", 10.1);
+    	animal.setNome("Ratinho");
+    	animal.setPeso(7.4);
+    	
+    	assertEquals("Ratinho", animal.getNome());
+    	assertEquals(7.4, animal.getPeso());
+    }
 }
