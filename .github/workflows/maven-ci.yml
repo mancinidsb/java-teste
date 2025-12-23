@@ -30,4 +30,4 @@ jobs:
       # O comando mvn -B verify roda os testes
       # jacoco:report gera o XML de cobertura
       # coveralls:report envia para o site
-      run: mvn -B verify jacoco:report coveralls:report -DrepoToken=$COVERALLS_REPO_TOKEN
+      run: mvn -B verify jacoco:report coveralls:report -DrepoToken=$COVERALLS_REPO_TOKEN -Dbranch=${{ github.ref_name }}
