@@ -1,0 +1,42 @@
+# --- Arquivos compilados do Java (Binários) ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# --- Diretórios de build padrão ---
+# Se usar Maven:
+target/
+# Se não usar Maven (apenas Eclipse puro):
+bin/
+
+# --- Arquivos específicos do Eclipse ---
+.metadata
+.recommenders
+.settings/
+.loadpath
+.factorypath
+
+# NOTA: Em projetos Maven/Gradle modernos, é comum ignorar estes arquivos
+# pois podem ser gerados novamente pelo comando "mvn eclipse:eclipse".
+# Se sua equipe não padronizou o Eclipse, IGNORE estes arquivos:
+.classpath
+.project
+
+# --- Arquivos específicos do Maven ---
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# --- Arquivos de Sistema Operacional (Lixo) ---
+.DS_Store
+Thumbs.db 
