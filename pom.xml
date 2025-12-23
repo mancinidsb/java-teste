@@ -72,7 +72,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.github.mancinidsb.javatest.application.Program</mainClass>
+                            <mainClass>com.github.mancinidsb.javateste.application.Program</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
