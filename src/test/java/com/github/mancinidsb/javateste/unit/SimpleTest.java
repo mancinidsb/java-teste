@@ -1,4 +1,4 @@
-package com.github.mancinidsb.javatest.unit;
+package com.github.mancinidsb.javateste.unit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
