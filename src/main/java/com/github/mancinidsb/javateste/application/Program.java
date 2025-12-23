@@ -1,4 +1,4 @@
-package com.github.mancinidsb.javateste.aplication;
+package com.github.mancinidsb.javateste.application;
 
 public class Program {
 	public static void main(String[] args) {
