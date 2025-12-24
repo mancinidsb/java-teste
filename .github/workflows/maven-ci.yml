@@ -37,7 +37,7 @@ jobs:
         BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
       run: >
         mvn -B verify 
-        org.sonarsource.scanner.maven:sonar-maven-plugin:sonar 
+        org.sonarsource.scanner.maven:sonar-maven-plugin:5.0.0.4389:sonar 
         jacoco:report coveralls:report 
         -Dsonar.projectKey=mancinidsb_java-teste
         -Dsonar.organization=mancinidsb 
